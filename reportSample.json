@@ -1,0 +1,27 @@
+{
+  "scanReport": {
+    "metadata": {
+      "scanId": "123e4567-e89b-12d3-a456-426614174000",
+      "timestamp": "2026-01-13T01:18:00Z",
+      "tier": "free",
+      "source": "IDShift SCAN"
+    },
+    "categories": {
+      "identityHygiene": {
+        "findings": {
+          "orphanedAccounts": ["alice@example.com"],
+          "dormantUsers": ["bob@example.com"],
+          "roleSprawlCount": 2
+        },
+        "summary": "2 hygiene risks detected."
+      },
+      "agenticAIAccounts": {
+        "findings": {
+          "detected": ["synthetic-bot-01"],
+          "classification": { "synthetic-bot-01": "High Risk" }
+        },
+        "summary": "1 agentic AI account flagged."
+      }
+    }
+  }
+}

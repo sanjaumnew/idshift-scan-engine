@@ -1,25 +1,20 @@
 {
-  "name": "IDShift SCAN",
-  "short_name": "SCAN",
-  "description": "Detect identity risks, agentic AI, and non-human accounts instantly.",
-  "start_url": "/index.html",
+  "name": "IDShift SCAN Engine",
+  "short_name": "IDShift SCAN",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#f9f9fb",
   "theme_color": "#0a1f44",
+  "description": "SCAN engine for identity risk detection.",
   "icons": [
     {
-      "src": "favicon/idshift-icon.png",
-      "sizes": "64x64",
+      "src": "assets/favicon.png",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "logo/idshift-logo.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
-      "src": "logo/idshift-logo-1024x1024.png",
-      "sizes": "1024x1024",
+      "src": "assets/hero-banner.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]

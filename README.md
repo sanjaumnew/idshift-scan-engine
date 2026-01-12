@@ -1,35 +1,42 @@
 # IDShift SCAN Engine
 
-<p align="center">
-  <img src="assets/hero-banner.png" alt="IDShift SCAN Engine Banner" width="800"/>
-</p>
+![Hero Banner](assets/hero-banner.png)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Repo Size](https://img.shields.io/github/repo-size/sanjaumnew/idshift-scan-engine)
-![Last Commit](https://img.shields.io/github/last-commit/sanjaumnew/idshift-scan-engine)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Pages](https://img.shields.io/badge/GitHub%20Pages-live-success)
+## 🔎 Overview
+**IDShift SCAN Engine** is a free-tier identity risk detection tool.  
+It helps organizations and individuals detect:
+- Agentic AI accounts
+- Synthetic identities
+- Compromised or suspicious human accounts
 
-> World’s most reliable SCAN engine, pioneered by **IDShift**.
+The engine produces **actionable reports** with severity tiers (Low, Medium, High) and remediation guidance.
 
-## 🚀 Overview
-IDShift SCAN is designed to detect identity risks — including **agentic AI and non-human accounts** — with modular, drop‑in scripts. Built for clarity, resilience, and reproducibility, it empowers teams to validate identity signals at scale.
+---
 
-## ✨ Features
-- **Modular JSON + HTML core** for easy deployment
-- **Actionable reporting schema** for identity risk classification
-- **Transparent asset pipeline** with shield logos and hero banners
-- **SEO-ready** for GitHub Pages hosting
-- **MIT Licensed** for open collaboration
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Build Status](https://img.shields.io/github/actions/workflow/status/yourrepo/ci.yml)
+![Version](https://img.shields.io/badge/version-0.1.0-orange.svg)
+## 🚀 Features
+- 🛡️ **Agentic AI Detection** — flag non-human accounts and synthetic identities
+- 👤 **Human Risk Profiling** — monitor compromised or suspicious accounts
+- 📊 **Actionable Reports** — JSON schema with severity badges and remediation steps
+- 🌐 **Web + CLI Support** — run scans via browser or command line
+- 🎨 **Branded UI** — hero banner, favicon, and dark mode support
 
-## 📂 Repository Structure
-- `/src` → Core JSON + HTML scripts  
-- `/assets` → Logos, favicons, hero banners  
-- `/docs` → Documentation and contributor guides  
-- `/tests` → QA and validation scripts  
+---
 
-## 🛠 Setup
-Clone the repository:
+## 📂 Project Structure
+
+---
+
+## 🖥️ Usage
+
+### Web (GitHub Pages)
+1. Open [https://scan.idshift.cloud](https://scan.idshift.cloud).
+2. Click **Run Free Scan**.
+3. View sample results with severity badges.
+
+### CLI
+Run scans locally:
 ```bash
-git clone https://github.com/sanjaumnew/idshift-scan-engine.git
-cd idshift-scan-engine
+node run-cli.js

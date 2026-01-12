@@ -8,45 +8,68 @@
     },
     "categories": {
       "identityHygiene": {
-        "orphanedAccounts": [],
-        "dormantUsers": [],
-        "roleSprawlCount": 0,
-        "premiumFeatures": ["toxicCombinationAnalysis", "automatedRemediation"]
+        "findings": {
+          "orphanedAccounts": [],
+          "dormantUsers": [],
+          "roleSprawlCount": 0
+        },
+        "summary": "No orphaned or dormant accounts detected in free scan."
       },
       "privilegedAccounts": {
-        "noMFAAdmins": [],
-        "excessivePrivileges": [],
-        "premiumFeatures": ["privilegeEscalationDetection", "sessionMonitoring"]
+        "findings": {
+          "noMFAAdmins": [],
+          "excessivePrivileges": []
+        },
+        "summary": "No privileged account risks detected in free scan."
       },
       "agenticAIAccounts": {
-        "detected": [],
-        "classification": {},
-        "premiumFeatures": ["behavioralAnomalyDetection", "riskScoring"]
+        "findings": {
+          "detected": [],
+          "classification": {}
+        },
+        "summary": "No agentic AI accounts detected in free scan."
       },
       "nonHumanAccounts": {
-        "serviceAccounts": [],
-        "dormant": [],
-        "premiumFeatures": ["credentialRotationEnforcement", "ownerMapping"]
+        "findings": {
+          "serviceAccounts": [],
+          "dormant": []
+        },
+        "summary": "No non-human account risks detected in free scan."
       },
       "apiKeysTokens": {
-        "longLivedKeys": [],
-        "rotationMissing": [],
-        "premiumFeatures": ["continuousLifecycleMonitoring", "vaultIntegration"]
+        "findings": {
+          "longLivedKeys": [],
+          "rotationMissing": []
+        },
+        "summary": "No API key/token risks detected in free scan."
       },
       "cloudIAM": {
-        "riskyPermissions": [],
-        "premiumFeatures": ["crossCloudToxicComboDetection", "continuousCompliance"]
+        "findings": {
+          "riskyPermissions": []
+        },
+        "summary": "No risky IAM permissions detected in free scan."
       },
       "webHygiene": {
-        "dnsRecords": [],
-        "sslValidity": "",
-        "securityHeaders": {
-          "csp": "",
-          "hsts": "",
-          "xfo": ""
+        "findings": {
+          "dnsRecords": [],
+          "sslValidity": "",
+          "securityHeaders": {
+            "csp": "",
+            "hsts": "",
+            "xfo": ""
+          }
         },
-        "premiumFeatures": ["continuousMonitoring", "sslRenewalAlerts"]
+        "summary": "Basic DNS and SSL checks performed."
       }
+    },
+    "availableInPremium": {
+      "identityHygiene": ["toxicCombinationAnalysis", "automatedRemediation"],
+      "privilegedAccounts": ["privilegeEscalationDetection", "sessionMonitoring"],
+      "agenticAIAccounts": ["behavioralAnomalyDetection", "riskScoring"],
+      "nonHumanAccounts": ["credentialRotationEnforcement", "ownerMapping"],
+      "apiKeysTokens": ["continuousLifecycleMonitoring", "vaultIntegration"],
+      "cloudIAM": ["crossCloudToxicComboDetection", "continuousCompliance"],
+      "webHygiene": ["continuousMonitoring", "sslRenewalAlerts"]
     }
   }
 }

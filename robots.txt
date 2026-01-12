@@ -1,0 +1,8 @@
+# robots.txt — IDShift SCAN Engine
+User-agent: *
+Allow: /
+
+# Prevent indexing of internal assets
+Disallow: /assets/
+
+Sitemap: https://scan.idshift.cloud/sitemap.xml

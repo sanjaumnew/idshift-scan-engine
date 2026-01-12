@@ -3,30 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IDShift SCAN</title>
- <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon/idshift-icon.png" type="image/png">
-  <meta name="description" content="IDShift SCAN detects identity risks, agentic AI, and non-human accounts instantly.">
-  <meta property="og:title" content="IDShift SCAN">
-  <meta property="og:description" content="Detect identity risks, agentic AI, and non-human accounts instantly.">
-  <meta property="og:image" content="assets/idshift-hero-banner-1280x720.png">
+  <title>IDShift SCAN Engine</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png" sizes="32x32">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <!-- SEO + Social -->
+<!-- Keywords -->
+<meta name="keywords" content="identity security, agentic AI detection, IAM hygiene, IDShift SCAN, synthetic identities, privileged accounts, risk detection">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://scan.idshift.cloud/">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IDShift SCAN Engine">
+<meta name="twitter:description" content="Free-tier SCAN engine for identity risk detection. Detect agentic AI, synthetic identities, and compromised accounts.">
+<meta name="twitter:image" content="assets/hero-banner.png">
+<meta name="description" content="IDShift SCAN engine for identity risk detection. Detect agentic AI, synthetic identities, and compromised accounts with actionable reporting.">
+  <meta property="og:title" content="IDShift SCAN Engine">
+  <meta property="og:description" content="SCAN engine for identity risk detection">
+  <meta property="og:image" content="assets/hero-banner.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://scan.idshift.cloud">
 </head>
 <body>
+
   <header>
-    <img src="logo/idshift-logo.png" alt="IDShift Logo">
+    <img src="assets/hero-banner.png" alt="IDShift SCAN Engine Banner">
   </header>
 
   <main>
     <section class="intro">
-      <picture>
-        <source srcset="assets/idshift-hero-banner-1920x1080.png" media="(min-width: 1024px)">
-        <source srcset="assets/idshift-hero-banner-1280x720.png" media="(min-width: 600px)">
-        <img src="assets/idshift-hero-banner.png" alt="IDShift Hero Banner">
-      </picture>
-      <h1>World’s Best Identity Risk Scanner</h1>
-      <p>Detect human identity risks, agentic AI, and non-human accounts with actionable reporting.</p>
-      <a href="#scan-results" class="cta-button">Run Free Scan</a>
+      <h1>IDShift SCAN Engine</h1>
+      <p>SCAN engine for identity risk detection</p>
+      <a href="#" class="cta-button" id="scanBtn">Run Free Scan</a>
     </section>
 
     <section class="features">
@@ -47,7 +64,7 @@
       </div>
     </section>
 
-    <section id="scan-results">
+    <section id="results" class="features">
       <h2>Sample Scan Results</h2>
       <div class="scan-card">
         <h4>Account: johndoe@example.com <span class="badge high">High Risk</span></h4>
@@ -57,15 +74,21 @@
         <h4>Account: janedoe@example.com <span class="badge medium">Medium Risk</span></h4>
         <p>Suspicious login activity detected. Monitor closely.</p>
       </div>
-      <div class="scan-card">
-        <h4>Account: testuser@example.com <span class="badge low">Low Risk</span></h4>
-        <p>No immediate threats. Routine monitoring advised.</p>
-      </div>
     </section>
   </main>
 
   <footer>
-    © 2026 IDShift SCAN — Identity Risk Intelligence
+    © 2026 IDShift — Intelligence for Identity Security
   </footer>
+
+  <script>
+    document.getElementById("scanBtn").addEventListener("click", function(e) {
+      e.preventDefault();
+      const results = document.getElementById("results");
+      results.style.display = "block";
+      results.scrollIntoView({ behavior: "smooth" });
+    });
+  </script>
+
 </body>
 </html>
