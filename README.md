@@ -1,5 +1,15 @@
 # IDShift SCAN Engine
 
+<p align="center">
+  <img src="assets/hero-banner.png" alt="IDShift SCAN Engine Banner" width="800"/>
+</p>
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Repo Size](https://img.shields.io/github/repo-size/sanjaumnew/idshift-scan-engine)
+![Last Commit](https://img.shields.io/github/last-commit/sanjaumnew/idshift-scan-engine)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Pages](https://img.shields.io/badge/GitHub%20Pages-live-success)
+
 > World’s most reliable SCAN engine, pioneered by **IDShift**.
 
 ## 🚀 Overview
