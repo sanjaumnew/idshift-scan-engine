@@ -1,0 +1,21 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE folders
+.vscode/
+.idea/
+*.swp
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Build artifacts (if added later)
+dist/
+build/
+.cache/
+
+# Environment files (if used for config)
+.env
+.env.local
