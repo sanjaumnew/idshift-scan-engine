@@ -1,0 +1,52 @@
+{
+  "scanReport": {
+    "metadata": {
+      "scanId": "UUID",
+      "timestamp": "ISO-8601",
+      "tier": "free",
+      "source": "IDShift SCAN"
+    },
+    "categories": {
+      "identityHygiene": {
+        "orphanedAccounts": [],
+        "dormantUsers": [],
+        "roleSprawlCount": 0,
+        "premiumFeatures": ["toxicCombinationAnalysis", "automatedRemediation"]
+      },
+      "privilegedAccounts": {
+        "noMFAAdmins": [],
+        "excessivePrivileges": [],
+        "premiumFeatures": ["privilegeEscalationDetection", "sessionMonitoring"]
+      },
+      "agenticAIAccounts": {
+        "detected": [],
+        "classification": {},
+        "premiumFeatures": ["behavioralAnomalyDetection", "riskScoring"]
+      },
+      "nonHumanAccounts": {
+        "serviceAccounts": [],
+        "dormant": [],
+        "premiumFeatures": ["credentialRotationEnforcement", "ownerMapping"]
+      },
+      "apiKeysTokens": {
+        "longLivedKeys": [],
+        "rotationMissing": [],
+        "premiumFeatures": ["continuousLifecycleMonitoring", "vaultIntegration"]
+      },
+      "cloudIAM": {
+        "riskyPermissions": [],
+        "premiumFeatures": ["crossCloudToxicComboDetection", "continuousCompliance"]
+      },
+      "webHygiene": {
+        "dnsRecords": [],
+        "sslValidity": "",
+        "securityHeaders": {
+          "csp": "",
+          "hsts": "",
+          "xfo": ""
+        },
+        "premiumFeatures": ["continuousMonitoring", "sslRenewalAlerts"]
+      }
+    }
+  }
+}
